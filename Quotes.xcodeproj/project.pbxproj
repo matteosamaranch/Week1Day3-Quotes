@@ -14,6 +14,7 @@
 		D7D7F4101BA05BE5005E827D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D7F40F1BA05BE5005E827D /* Images.xcassets */; };
 		D7D7F4131BA05BE6005E827D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D7F4111BA05BE6005E827D /* LaunchScreen.xib */; };
 		D7D7F41F1BA05BE6005E827D /* QuotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D7F41E1BA05BE6005E827D /* QuotesTests.m */; };
+		D7D7F42A1BA06ADD005E827D /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7D7F4291BA06ADD005E827D /* quotes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D7D7F4181BA05BE6005E827D /* QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D7F41D1BA05BE6005E827D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7D7F41E1BA05BE6005E827D /* QuotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotesTests.m; sourceTree = "<group>"; };
+		D7D7F4291BA06ADD005E827D /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		D7D7F4011BA05BE5005E827D /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				D7D7F4281BA06AA5005E827D /* resources */,
 				D7D7F4061BA05BE5005E827D /* AppDelegate.h */,
 				D7D7F4071BA05BE5005E827D /* AppDelegate.m */,
 				D7D7F4091BA05BE5005E827D /* ViewController.h */,
@@ -117,6 +120,14 @@
 				D7D7F41D1BA05BE6005E827D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7D7F4281BA06AA5005E827D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7D7F4291BA06ADD005E827D /* quotes.plist */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				D7D7F40E1BA05BE5005E827D /* Main.storyboard in Resources */,
 				D7D7F4131BA05BE6005E827D /* LaunchScreen.xib in Resources */,
 				D7D7F4101BA05BE5005E827D /* Images.xcassets in Resources */,
+				D7D7F42A1BA06ADD005E827D /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

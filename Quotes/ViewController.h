@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *myQuotes;
+@property (strong, nonatomic) NSMutableArray *movieQuotes; 
+
 
 @end
 
